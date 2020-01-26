@@ -48,6 +48,7 @@ def sex(x):
                 if (j + 1) < len(x_prev[i]) and x_prev[i][j+1] != 2  and x_new[i][j+1]==0:
                     x_new[i][j + 1] = 1
                     numberOfNodesInfected += 1
+    #super secret comment
     return x_new, numberOfNodesInfected
 
 def infectedSum(x):
